@@ -7,10 +7,9 @@ public class Elevator {
     public Elevator(int minFloor, int maxFloor) {
         this.minFloor = minFloor;
         this.maxFloor = maxFloor;
-
     }
 
-    public void getCurrentFloor() {
+    public void printCurrentFloor() {
         System.out.println("Текущий этаж: " + currentFloor);
     }
 
